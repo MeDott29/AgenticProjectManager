@@ -41,3 +41,15 @@ Based on the above, break down tasks into more granular work items:
 ## Next Steps
 - **Discussion:** Use this document as a starting point to clarify any questions in a brief call.
 - **Iteration:** Refine and modify tasks based on real-world testing and team feedback.
+
+## Additional Tasks and References
+
+### Additional Tasks for Endomorphosis (endo)
+- **ASR/TTS/LLM Integration:** Implement asynchronous control flow to interrupt language generation when new audio is detected. [Reference: endomorphosis (2025-01-29T05:58:57.855+00:00)]
+- **API & Model Server Enhancement:** Expand API backend tests and prototype model chaining for robust edge-case handling. [Reference: endomorphosis (2025-01-29T05:59:24.855+00:00)]
+- **Test Automation Refinement:** Reorganize and structure tests across multiple hardware platforms as described, ensuring a solid TDD foundation. [Reference: endomorphosis (2025-01-31T21:49:07.306+00:00)]
+
+### Additional Tasks for ATH 
+- **Transformer.js Integration:** Evaluate and integrate transformer.js for model server endpoints to unify backend and client-side inference. [Reference: endomorphosis (2025-02-07T05:16:42.619+00:00)]
+- **Documentation & TDD Adoption:** Update and maintain detailed interface documentation and fully adopt TDD practices for new features. [Reference: ATH🥭 (2025-01-31T21:41:54.302+00:00)]
+- **CI/CD Pipeline Setup:** Collaborate to establish a robust CI/CD pipeline for automated testing and deployment.
